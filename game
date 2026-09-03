@@ -9,7 +9,7 @@ int main() {
     int secretNumber = rand() % 100 + 1;
     int guess;
 
-    cout << "Guess the number (1-100): ";
+    cout << "Guess a number (1-100): ";
     cin >> guess;
 
     if (guess == secretNumber) {
