@@ -6,7 +6,6 @@ using namespace std;
 int main() {
     srand(time(0));
 
-    // اختيار رقم عشوائي من 1 إلى 100
     int secretNumber = rand() % 100 + 1;
     int guess;
 
@@ -14,10 +13,10 @@ int main() {
     cin >> guess;
 
     if (guess == secretNumber) {
-        cout << "Correct! You guessed the number! ✅" << endl;
+        cout << "Correct! You guessed the number! " << endl;
     } 
     else {
-        cout << "Wrong! ❌" << endl;
+        cout << "Wrong! " << endl;
         cout << "The correct number was: " << secretNumber << endl;
     }
 
